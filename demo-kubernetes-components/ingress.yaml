@@ -19,7 +19,7 @@ kind: Ingress
 metadata:
   name: name
   annotations:
-    kubernetes.io/ingress.class: "nginx"
+    spec.ingressClassName: "nginx"
 spec:
   rules:
   - host: app.com
